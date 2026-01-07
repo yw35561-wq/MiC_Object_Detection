@@ -72,7 +72,7 @@ The algorithm processes the depth ROI (same as dimension calculation) in 6 steps
 | 3. Reshaping | Restore 2D structure to the ROI (lost during filtering) | `roi_depth = roi_depth.reshape((y2-y1, x2-x1))` |
 | 4. Local Mean Calculation | Compute the mean depth over sliding windows (size = $k \times k$) | Convolution with a uniform kernel: $K = \frac{1}{k^2} \times \text{ones}(k,k)$ |
 | 5. Local Variance Calculation | Compute variance of depth values around each window mean | $\text{var}(i,j) = (roi\_depth(i,j) - \text{mean}(i,j))^2$ (convolved with $K$) |
-| 6. Roughness Score | Average the local variance values to get a single roughness metric | $\text{roughness} = \text{mean}(\text{local\_variance})$ |
+| 6. Roughness Score | Average the local variance values to get a single roughness metric | $\text{roughness} = \text{mean}(\text{local\variance})$ |
 
 ### 4.2 Mathematical Formulation
 #### Step 4: Local Mean
