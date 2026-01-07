@@ -74,7 +74,7 @@ Clone the repository and install dependencies:
 ```bash
 # Clone repository
 git clone https://github.com/yw35561-wq/MiC_Object_Detection.git
-cd MiC-Object-Detection-Analysis
+cd MiC_Object_Detection
 
 # Install dependencies
 pip install -r requirements.txt
