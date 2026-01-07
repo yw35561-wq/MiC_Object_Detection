@@ -73,7 +73,7 @@ MiC-Object-Detection-Analysis/
 Clone the repository and install dependencies:
 ```bash
 # Clone repository
-git clone https://github.com/[Your-GitHub-Username]/MiC-Object-Detection-Analysis.git
+git clone https://github.com/yw35561-wq/MiC_Object_Detection.git
 cd MiC-Object-Detection-Analysis
 
 # Install dependencies
