@@ -1,0 +1,31 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Web uploads/results
+src/visualization/static/uploads/*
+src/visualization/static/results/*
+
+# Large files
+*.pt
+*.pth
+*.h5
+*.zip
+*.7z
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment variables
+.env

@@ -1,0 +1,5 @@
+# Web visualization configuration
+host: "0.0.0.0"                            # Allow external access
+port: 8080                                 # Web server port
+upload_folder: "src/visualization/static/uploads"  # Uploaded files directory
+result_folder: "src/visualization/static/results"  # Result images directory

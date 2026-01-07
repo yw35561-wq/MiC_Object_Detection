@@ -1,0 +1,5 @@
+# YOLOv12 model configuration
+model_path: "models/yolov12_mic_best.pt"  # Path to trained weights
+conf_threshold: 0.5                       # Confidence threshold for detection
+iou_threshold: 0.45                       # IOU threshold for NMS
+imgsz: 640                                # Inference image size

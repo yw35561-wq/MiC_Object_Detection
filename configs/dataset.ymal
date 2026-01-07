@@ -1,0 +1,40 @@
+# Dataset configuration for MiC object detection
+path: 'D:/P/70231028/wyl_datasets'  # Root path of dataset
+train: 'train/images'               # Training set images path (relative to path)
+val: 'val/images'                   # Validation set images path (relative to path)
+test: 'test/images'                 # Test set images path (relative to path, optional)
+
+# Class configuration
+nc: 31  # Total number of classes
+names:
+  0: mirror
+  1: electrical_groove
+  2: screeding
+  3: square_hole
+  4: circular_hole
+  5: door_frame
+  6: switch
+  7: window
+  8: window_frame
+  9: innerwall_connector
+  10: outerwall_connector
+  11: waterproof_coat
+  12: window_connector
+  13: box_groove
+  14: waterproof_beam
+  15: door_closer
+  16: door
+  17: pipe
+  18: conduit
+  19: toilet
+  20: power_box
+  21: hinged_door
+  22: sink
+  23: faucet
+  24: shower
+  25: heater
+  26: light_groove
+  27: socket
+  28: inner_conduit
+  29: re_exhaust_ducts
+  30: rebar
